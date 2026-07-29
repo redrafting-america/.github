@@ -29,7 +29,7 @@ The Utopia Project US is a nonprofit civic initiative designing **Constitution v
 
 | Repo | Purpose | Access |
 |---|---|---|
-| [`website`](https://github.com/Utopia-Project-US/website) | utopiaproject.us | Private — password-protected site |
+| [`website`](https://github.com/Utopia-Project-US/website) | utopiaproject.us | Public (Beta)
 | `bylaws` | Bylaws & Articles of Incorporation | Private |
 | `constitution2` | Constitution v2.0 — manuscript, research, exports | Private |
 | `phone` | 215-4-UTOPIA phone system & call routing | Private |
