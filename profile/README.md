@@ -17,7 +17,7 @@
 
 The Utopia Project US is a nonprofit civic initiative designing **Constitution v2.0** — a modern constitutional framework for a future democratic society, built around truth, accountability, and human dignity.
 
-🔗 **[utopiaproject.us](https://utopiaproject.us)** — public site (password-protected pre-launch)
+🔗 **[utopiaproject.us](https://utopiaproject.us)** — public site
 
 ## What we're building
 
