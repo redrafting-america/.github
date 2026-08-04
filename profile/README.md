@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/utopia-project-logo.png" alt="The Utopia Project US logo" width="360"/>
+  <img src="images/redrafting-america-logo-web.png" alt="Redrafting America logo" width="360"/>
 </p>
 
 <p align="center">
@@ -15,9 +15,9 @@
 
 ## What this is
 
-The Utopia Project US is a nonprofit civic initiative designing **Constitution v2.0** — a modern constitutional framework for a future democratic society, built around truth, accountability, and human dignity.
+Redrafting America is a nonprofit civic initiative designing **Constitution v2.0** — a modern constitutional framework for a future democratic society, built around truth, accountability, and human dignity.
 
-🔗 **[utopiaproject.us](https://utopiaproject.us)** — public site
+🔗 **[redraftingamerica.org](https://redraftingamerica.org)** — public site
 
 ## What we're building
 
@@ -29,17 +29,22 @@ The Utopia Project US is a nonprofit civic initiative designing **Constitution v
 
 | Repo | Purpose | Access |
 |---|---|---|
-| [`website`](https://github.com/Utopia-Project-US/website) | utopiaproject.us | Public (Beta)
+| [`redrafting-america`](https://github.com/redrafting-america/redrafting-america) | Public website at redraftingamerica.org | Public (Beta) |
+| [`.github`](https://github.com/redrafting-america/.github) | Organization profile and community health files | Public |
 | `bylaws` | Bylaws & Articles of Incorporation | Private |
 | `constitution2` | Constitution v2.0 — manuscript, research, exports | Private |
-| `phone` | 215-4-UTOPIA phone system & call routing | Private |
+| `phone` | Phone system, call routing, and voice prompts | Private |
+| `blog` | Drafting Room editorial workspace | Private |
+| `infrastructure` | Infrastructure configuration and documentation | Private |
+| `scripts` | Internal automation and maintenance scripts | Private |
+| `logs` | Internal operational logs | Private |
 
 Repos are currently private while the organization is still forming and drafting. Some will open up as the project moves through its roadmap.
 
 ## Get in touch
 
-- 📞 [215-4-UTOPIA](tel:+12154886742)
-- ✉️ [info@utopiaproject.us](mailto:info@utopiaproject.us)
+- 📞 [(215) 488-6742](tel:+12154886742)
+- ✉️ [todd.mcguckin@redraftingamerica.org](mailto:todd.mcguckin@redraftingamerica.org)
 - 📍 Philadelphia, PA — the birth of our nation
 
 ---

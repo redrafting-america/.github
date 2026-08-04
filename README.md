@@ -1,2 +1,3 @@
 # .github
-Introduction to The Utopia Project
+
+Organization profile and community health files for Redrafting America.
