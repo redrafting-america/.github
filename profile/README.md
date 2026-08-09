@@ -44,7 +44,7 @@ Repos are currently private while the organization is still forming and drafting
 ## Get in touch
 
 - 📞 [(215) 488-6742](tel:+12154886742)
-- ✉️ [todd.mcguckin@redraftingamerica.org](mailto:todd.mcguckin@redraftingamerica.org)
+- ✉️ [github@redraftingamerica.org](mailto:todd.mcguckin@redraftingamerica.org)
 - 📍 Philadelphia, PA — the birth of our nation
 
 ---
