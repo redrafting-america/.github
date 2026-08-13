@@ -44,14 +44,14 @@ Every document we produce carries a version, a lifecycle state, and a permanent 
 | `library` | Document library — drafts, published works, graphics, correspondence | Private |
 | `registry` | Permanent identity allocation for every managed document | Private |
 | `skills` | The `rda-*` governance standards that run the document process | Private |
-| `website` | Source for redraftingamerica.org | Private |
+| [`website`](https://github.com/redrafting-america/website) | Source for the public site | Public |
+| [`assets`](https://github.com/redrafting-america/assets) | Managed graphic and brand assets | Public |
 | `blog` | Drafting Room editorial workspace | Private |
 | `phone` | Phone system, call routing, and voice prompts | Private |
-| `assets` | Asset registry schema | Private |
 | `scripts` | Internal automation and maintenance | Private |
 | `logs` | Internal operational logs | Private |
 
-Repos are private while the organization is still forming and drafting. Some will open as the project moves through its roadmap — the Constitution text and White Papers are intended to be public well before they are final.
+Most repos are private while the organization is still forming and drafting. More will open as the project moves through its roadmap — the Constitution text and White Papers are intended to be public well before they are final.
 
 ## Get in touch
 
