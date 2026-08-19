@@ -86,9 +86,10 @@ displays into useful, thoughtfully designed information surfaces. Its three comp
 experiences—**C-TOP**, **M-TOP**, and **L-TOP**—explore different ways a display can
 remain informative without demanding attention.
 
-The application's development repositories are currently hosted by the Redrafting
-America GitHub organization. Its final ownership and organizational home have not yet
-been decided.
+System Observatory is being created by Redrafting America as a nonprofit-owned software
+product. Its application and website repositories are maintained within the Redrafting
+America GitHub organization, while product-specific source, testing, Help, design, and
+release records remain governed within those repositories.
 
 **[Visit systemobservatory.app](https://systemobservatory.app)**
 
@@ -115,4 +116,4 @@ repository is public.
 
 <p align="center"><em>The Future Is Ours To Rewrite.</em></p>
 
-<p align="center"><sub>Version: 003.20260818.170314</sub></p>
+<p align="center"><sub>Version: 004.20260819.081124</sub></p>
