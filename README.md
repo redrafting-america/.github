@@ -1,6 +1,6 @@
 # Redrafting America — Organization Working Handbook
 
-**Version:** 002.20260818.165308
+**Version:** 003.20260819.081124
 
 This repository owns the Redrafting America GitHub organization profile and the
 current map of its websites, applications, repositories, and local working folders.
@@ -33,9 +33,9 @@ history. Website source does not belong in an application repository.
 
 ## System Observatory
 
-System Observatory is a software product currently developed in repositories hosted by
-the Redrafting America GitHub organization. Its final personal-versus-organizational
-ownership model has not yet been decided. Its public message is:
+System Observatory is being created by Redrafting America as a nonprofit-owned software
+product. Its application and website repositories are maintained within the Redrafting
+America GitHub organization. Its public message is:
 
 > Always useful screensavers. Never flying toasters.
 
@@ -94,8 +94,18 @@ tree:
 /Users/toddmcguckin/Library/Mobile\ Documents/com~apple~CloudDocs/Projects/Redrafting-America/scripts/git-sync-all.sh "Describe the changes"
 ```
 
-The script inventories the GitHub organization and the local workspace, synchronizes
-each repository, verifies local and remote state, and writes an execution audit bundle.
+The script inventories the GitHub organization and local workspace and then treats a
+normal interactive run as an approved delivery operation. For each repository containing
+work, it shows the changes and requires confirmation that Todd and Codex reviewed the
+work and that appropriate local verification passed. It then commits and pushes a
+feature branch, creates or reuses a pull request, requires at least one successful GitHub
+check, merges without administrator bypass, fast-forwards the local default branch, and
+verifies that local and GitHub `main` contain the same commit.
+
+The script distinguishes branch synchronization from delivery completion. A pushed
+feature branch is not complete until its pull request is green, merged, and verified on
+the default branch. Failed, missing, skipped, cancelled, pending, conflicted, or
+review-blocked checks leave the pull request open and report delivery pending.
 
 Operational logs are **not** stored in GitHub and there is no `logs` repository. They
 are local iCloud data at:
@@ -104,11 +114,13 @@ are local iCloud data at:
 /Users/toddmcguckin/Library/Mobile Documents/com~apple~CloudDocs/Projects/Redrafting-America/logs/
 ```
 
-The synchronizer writes its bundles beneath `logs/gitsyncall/<year>/<month>/`.
+The synchronizer writes its bundles beneath `logs/git-sync-all/<year>/<month>/`.
 
-Before a live synchronization, add `--dry-run` to the command and review every proposed
-commit, deletion, clone, pull, and push. The live command stages all changes within each
-repository it processes.
+Before a live delivery, add `--dry-run` and review every proposed branch, commit, push,
+pull request, check, merge, clone, and reconciliation action. During a live interactive
+run, answer yes only for repositories whose complete change set has been reviewed and
+tested. Unattended runs must use `--sync-only`; that mode may synchronize already
+committed feature branches but cannot stage, commit, create pull requests, or merge.
 
 ## Ownership boundaries
 
@@ -137,4 +149,4 @@ substantially separate history.
 
 ---
 
-<sub>Redrafting America · Organization Working Handbook · Version 002.20260818.165308 · <em>Veritas Super Omnia</em></sub>
+<sub>Redrafting America · Organization Working Handbook · Version 003.20260819.081124 · <em>Veritas Super Omnia</em></sub>
